@@ -1,2 +1,42 @@
 /* CDN LINK GOOGLE FONT FAMILIES POPINS */
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+     
+}
+
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding: 8px;
+    padding-right: 20px;
+    width: 1536px;
+    height: 30px;
+    background-color: #214469;
+    color: white;
+
+
+}
+ .navbar section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.navbar i{
+    padding-right: 5px;
+}
+.navbar span{
+    font-size: 14px;
+} 
+
+
+ 
